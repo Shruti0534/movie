@@ -127,7 +127,7 @@ const Page = () => {
             {casts && casts.cast
               .filter((ite) => ite.character)
               .map((item) => (
-                <div>
+                <div key={item.name}>
                   <div className=" relative min-w-56 h-64">
                   <Image
                     src={
