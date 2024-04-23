@@ -95,7 +95,7 @@ const Page = () => {
                 <span>{show.release_date}</span>
                 <span className=" space-x-3">
                   {show.genres.map((item) => (
-                    <span>{item.name}</span>
+                    <span key={item.name}>{item.name}</span>
                   ))}
                 </span>
                 <span>
