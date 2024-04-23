@@ -33,7 +33,7 @@ const Youtubecom = ({ name, setplay }) => {
   );
 };
 
-const page = () => {
+const Page = () => {
   const route = useRouter();
   const [casts,setcasts]=useState();
   const [show, setshow] = useState();
